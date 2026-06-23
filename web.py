@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Calculadora funcionando con Docker"
+    return "Calculadora actualizada con Docker y despliegue continuo"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
