@@ -1,0 +1,19 @@
+{
+  "name": "calculadora-pipeline",
+  "version": "1.0.0",
+  "description": "Caso de estudio para liberacion y despliegue continuo de una calculadora web",
+  "main": "index.html",
+  "scripts": {
+    "test": "node scripts/check-files.js",
+    "build": "node scripts/build.js",
+    "test:release": "node scripts/smoke-test.js",
+    "metrics": "node scripts/metrics.js"
+  },
+  "keywords": [
+    "calculadora",
+    "github-actions",
+    "despliegue-continuo"
+  ],
+  "author": "Brando Bautista Suarez",
+  "license": "MIT"
+}
